@@ -52,3 +52,4 @@ It is just a proof of concept at this time which means that some changes would b
 For example, right now the API allows any origin to make request. That should be changed before application goes into production.
 There is some code duplication in the form components in frontend, which could be improved by refactoring.
 Quality would also be improved if tests were added in the frontend as well.
+Frontend validation could be added for a better user experience. For example checking that the body length input is correct (for example in centimeters and not meters), or that the input for age is correct for the current tab.
