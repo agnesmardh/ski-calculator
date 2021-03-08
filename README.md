@@ -8,7 +8,7 @@ Backend in .NET/C# and frontend in React JS.
 * For children under 5 the ski length is the same as body length
 * For children over 5 and under 9 the ski length is the same as body length + 15 cm
 * For children over 8 and adults with ski type 'classic' the ski length is the same as body length + 20 cm but with a maximum of 207 cm
-* For children over 8 and adults with ski type 'freestyle' the ski length is the same as body length + 20 cm but with a maximum of 207 cm
+* For children over 8 and adults with ski type 'freestyle' the ski length is the same as body length + 15 cm
 
 ## Description of code
 Code and tests for the backend is in ski-backend.
@@ -22,20 +22,22 @@ The forms in the tabs are seperate components.
 ## To run the project
 
 ### Run backend:
-In terminal
-cd ski-backend
+In terminal\
+cd ski-backend\
 dotnet run --project ./Ski/ski.csproj
 
 Go to <https://localhost:5001/swagger/index.html> to see the API
 
 ### Run tests for backend:
-In terminal
-cd ski-backend/Tests
+In terminal\
+cd ski-backend/Tests\
 dotnet test
 
 ### Run frontend:
-cd ski-frontend
-run: npm install, npm start
+In terminal\
+cd ski-frontend\
+npm install\
+npm start
 
 With frontend and backend running go to this adress to see the UI:
 <https://localhost:3000/>
@@ -46,7 +48,7 @@ Frontend modules to get bootstrap styling of components.
 [classnames](https://www.npmjs.com/package/classnames)
 
 ## Notes and possible improvements
-It is just a proof of concept at this time.
+It is just a proof of concept at this time which means that some changes would be necessary before application would go into production.
 For example, right now the API allows any origin to make request. That should be changed before application goes into production.
 There is some code duplication in the form components in frontend, which could be improved by refactoring.
 Quality would also be improved if tests were added in the frontend as well.
