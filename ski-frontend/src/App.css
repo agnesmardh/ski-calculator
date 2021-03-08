@@ -1,0 +1,16 @@
+.App {
+  text-align: center;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+}
+
+.form {
+  padding: 24px;
+}
+
+.heading {
+  margin-bottom: 18px;
+}

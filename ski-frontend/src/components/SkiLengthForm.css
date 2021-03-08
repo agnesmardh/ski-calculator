@@ -1,0 +1,12 @@
+.padding {
+    padding: 24px;
+}
+
+.formRow {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.button {
+    margin-top: 18px;
+}
