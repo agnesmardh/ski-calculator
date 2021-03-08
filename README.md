@@ -1,17 +1,16 @@
 # Ski length calculator
 
-## Description of the application:
 A web-app which calculates the ski length for you based on body length and age or ski type.
 In the GUI there is one tab under the heading for younger childrens and one tab for older children and adults.
 Backend in .NET/C# and frontend in React JS.
 
-### Uses the following rules for calculations
+## Uses the following rules for calculations
 * For children under 5 the ski length is the same as body length
 * For children over 5 and under 9 the ski length is the same as body length + 15 cm
 * For children over 8 and adults with ski type 'classic' the ski length is the same as body length + 20 cm but with a maximum of 207 cm
 * For children over 8 and adults with ski type 'freestyle' the ski length is the same as body length + 20 cm but with a maximum of 207 cm
 
-### Description of code
+## Description of code
 Code and tests for the backend is in ski-backend.
 The controllers handles the three API endpoints: One for children and one per type (classic/freestyle) for older children and adults.
 The services folder with the service for ski length calculator handles the business logic and is also the code which is being tested.
