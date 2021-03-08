@@ -43,8 +43,8 @@ With frontend and backend running go to this adress to see the UI:
 <https://localhost:3000/>
 
 ## Dependencies
-Frontend modules to get bootstrap styling of components.
-[reactstrap](https://reactstrap.github.io/)
+Frontend modules to get bootstrap styling of components.\
+[reactstrap](https://reactstrap.github.io/)\
 [classnames](https://www.npmjs.com/package/classnames)
 
 ## Notes and possible improvements
